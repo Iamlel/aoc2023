@@ -1,7 +1,7 @@
 SPELLED = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 num1 = num2 = total = 0
 buffer = ""
-File.open("input.txt", "r") do |file|
+File.open("../input1.txt", "r") do |file|
   while (ch = file.read(1)&.ord) do
     if (ch == 10)
       total += num1 * 10 + num2
