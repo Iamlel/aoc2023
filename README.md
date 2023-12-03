@@ -9,6 +9,8 @@ Once you run it, it will print the answer to day 1 as well as the code to the ne
 
 I have also included original code to the individual days before I stuffed them into the quine.
 
+My hope is that I can not only stuff everything together, but optimize the quine to save on variables, code, etc -- hopefully reducing the size and making it run faster.
+
 ## Environment
 - CPU: Intel i7-8700 (2) @ 3.192GHz 
 - GPU: 00:02.0 VMware SVGA II Adapter 
