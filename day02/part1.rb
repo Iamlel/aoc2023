@@ -1,5 +1,5 @@
 buffer = game = id = total = 0
-File.open("../input2.txt", "r") do |file|
+File.open("../inputs/input2.txt", "r") do |file|
   while (ch = file.read(1)&.ord) do
     case ch
     when 100     # d (for red)
