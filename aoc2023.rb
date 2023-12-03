@@ -12,7 +12,7 @@ eval s = %q(#{s})"
   red = green = blue = 0
 
   total1 = total2 = 0
-  File.open("input#{DAY}.txt", "r") do |file|
+  File.open("./inputs/input#{DAY}.txt", "r") do |file|
     while (ch = file.read(1)&.ord) do
       if (DAY == 1)
         if (ch == 10)
