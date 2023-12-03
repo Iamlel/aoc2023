@@ -1,5 +1,5 @@
 num1 = num2 = total = 0
-File.open("../input1.txt", "r") do |file|
+File.open("../inputs/input1.txt", "r") do |file|
   while (ch = file.read(1)&.ord) do
     ch -= 48
     if (ch == -38)
